@@ -1,0 +1,212 @@
+body, h1, h2, h3, h4, a{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #005484;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-cubo{
+    width: 500px;
+    height: 500px;
+}
+
+.top{
+    height: 100%;
+    width: 100%;
+    background-image: url(./imagens/back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-top{
+    width: 100%;
+    max-width: 1250px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.flex-2{
+    width: 100%;
+    max-width: 625px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+}
+
+.texto-top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sub-top{
+    color: white;
+    font-size: 45px;
+}
+
+.botao-eu-quero{
+    width: 350px;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: 700;
+    color: #005484;
+    background-color: white;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bola{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: white;
+    position: relative;
+    margin-bottom: -60px;
+}
+
+.container{
+    height: 100%;
+    min-height: 260px;
+    width: 100%;
+    max-width: 1250px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+
+.content-space{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.content-space h2{
+    margin-top: 10px;
+}
+
+.content-space h3{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.content-space i{
+    font-size: 170px;
+    z-index: 1;
+}
+
+.form{
+    width: 100vw;
+    height: 100%;
+    background-color: #005484;
+    display: flex;
+    justify-content: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-content{
+    padding: 50px;
+    width: 100%;
+    max-width: 1250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-content h2{
+    color: white;
+    font-size: 60px;
+}
+
+.form-flutuante{
+    margin: 30px;
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-flutuante h3{
+    color: red;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.form-flutuante h4{
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.form-flutuante .container-campo{
+    width: 80%;
+}
+
+.form-flutuante .container-campo .campo{
+    width: 95%;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+.form-flutuante .botao-enviar{
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-style: none;
+    border: 1px solid rgb(37, 37, 37);
+    background-color: #005484;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
